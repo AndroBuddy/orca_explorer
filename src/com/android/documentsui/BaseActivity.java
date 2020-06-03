@@ -87,7 +87,7 @@ import javax.annotation.Nullable;
 public abstract class BaseActivity
         extends AppCompatActivity implements CommonAddons, NavigationViewManager.Environment {
 
-    private static final String BENCHMARK_TESTING_PACKAGE = "com.android.documentsui.appperftests";
+    private static final String BENCHMARK_TESTING_PACKAGE = "com.orca.explorer";
 
     protected SearchViewManager mSearchManager;
     protected AppsRowManager mAppsRowManager;

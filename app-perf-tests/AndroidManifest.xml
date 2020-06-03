@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.documentsui.appperftests">
+    package="com.orca.explorer">
 
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
 
@@ -14,7 +14,7 @@
     <!-- This package instrumentates itself, so the DocumentsUI process can be killed without
          killing the testing package. -->
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.android.documentsui.appperftests"
+        android:targetPackage="com.orca.explorer"
         android:label="App performance tests for DocumentsUI" />
 
 </manifest>

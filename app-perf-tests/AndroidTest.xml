@@ -23,6 +23,6 @@
 
     <test class="com.android.tradefed.testtype.AndroidJUnitTest" >
         <option name="runner" value="android.test.InstrumentationTestRunner" />
-        <option name="package" value="com.android.documentsui.appperftests" />
+        <option name="package" value="com.orca.explorer" />
     </test>
 </configuration>
